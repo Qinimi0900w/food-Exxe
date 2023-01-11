@@ -65,3 +65,43 @@ body{
 	font-size: 24px;
 	line-height: 76px;
 }
+.block-restaurant{
+	margin: 150px 150px ;
+	font-family: 'Public Sans', sans-serif;
+
+}
+.block-restaurant hr{
+	border: 1px solid  #B59571;
+	width: 60px;
+	display: flex;
+}
+.restaurant-title{
+	/*display: flex;*/
+}
+.restaurant_text{
+	display: flex;
+	justify-content: center;
+}
+.subtitle{
+	font-size: 64px;
+	line-height: 77px;
+	padding-right: 134px ;
+}
+.text{
+	width: 490px;
+	padding-top: 70px;
+}
+.block-menu{
+	font-family: 'Public Sans', sans-serif;
+	margin: auto 150px ;
+}
+.menu_subtitle{
+	display: flex;
+	font-size: 64px;
+	line-height: 77px;
+	padding-right: 134px ;
+}
+.menu_text{
+	display: flex;
+	justify-content: center;
+}
