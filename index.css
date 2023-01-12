@@ -66,17 +66,17 @@ body{
 	line-height: 76px;
 }
 .block-restaurant{
-	margin: 150px 150px ;
+	margin: 150px 150px 70px 150px ;
 	font-family: 'Public Sans', sans-serif;
-
-}
-.block-restaurant hr{
-	border: 1px solid  #B59571;
-	width: 60px;
-	display: flex;
 }
 .restaurant-title{
-	/*display: flex;*/
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.restaurant-img{
+	margin-right: 30px;
 }
 .restaurant_text{
 	display: flex;
@@ -86,22 +86,31 @@ body{
 	font-size: 64px;
 	line-height: 77px;
 	padding-right: 134px ;
+	font-weight: 700;
 }
 .text{
 	width: 490px;
 	padding-top: 70px;
+	font-weight: normal;
 }
 .block-menu{
 	font-family: 'Public Sans', sans-serif;
 	margin: auto 150px ;
 }
+.menu_title{
+	width: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
 .menu_subtitle{
 	display: flex;
 	font-size: 64px;
-	line-height: 77px;
-	padding-right: 134px ;
+	padding-right: 110px ;
+	font-weight: 700;
 }
 .menu_text{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
