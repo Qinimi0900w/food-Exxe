@@ -1,5 +1,6 @@
 body{
 	margin: 0;
+	font-family: 'Public Sans', sans-serif;
 }
 a{
 	text-decoration: none;
@@ -8,11 +9,11 @@ a{
 .section{
 	display: flex;
 	width: 1480px;
-	height: 1000px;
+	height: 750px;
 	background-image: url(img/img.jpg);
 }
 .sitebar{
-	height: 940px;
+	height: 690px;
 	width: 80px;
 	padding: 30px 20px;
 	background-color: #333;
@@ -30,6 +31,8 @@ a{
 }
 .section-img{
 	position: relative;
+	display: flex;
+	justify-content: center;
 }
 .header{
 	width: 1200px;
@@ -65,7 +68,7 @@ a{
 }
 .section-img_text{
 	position: absolute;
-	top: 600px;
+	top: 400px;
 	left: 302px;
 	color: #fff;
 	font-family: 'Public Sans',sans-serif;
@@ -75,6 +78,8 @@ a{
 .block-restaurant{
 	margin: 150px 150px 70px 150px ;
 	font-family: 'Public Sans', sans-serif;
+	/*width: 400px;*/
+	/*border: 1px solid #000;*/
 }
 .restaurant-title{
 	width: 250px;
@@ -152,6 +157,7 @@ a{
 	width: 290px;
 	display: flex;
 	align-items: center;
+	margin-left: 	0px;
 	margin-right: 160px;
 	font-family: 'Public Sans', sans-serif;
 	font-weight: 700;
@@ -162,3 +168,174 @@ a{
 	text-decoration: none;
 	color: #333;
 }
+.deliv{
+	margin: 150px 150px 0;
+}
+.deliv_text{
+	display: flex;
+	margin:  80px  auto 30px;
+	justify-content: center;
+
+}
+.service_subtitle{
+	font-size: 64px;
+	line-height: 77px;
+	padding-right: 134px ;
+	font-weight: 700;
+	color: #333333;
+}
+.deliv_btn{
+	display: flex;
+	margin-left: 350px	;
+	margin-bottom: 80px;
+	justify-content: center;
+	font-family: 'Public Sans', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+}
+.btn1{
+	width: 163px;
+	height: 58px;
+	background: #B59571;
+	text-align: center;
+	border: none;
+	color: #fff;
+	margin-right: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Public Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.btn1 a{
+	text-decoration: none;
+	color: #fff;
+}
+.btn2{
+	width: 221px;
+	height: 58px;
+	background: #fff ;
+	border: 1px solid #33333333;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Public Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.btn2 a{
+	text-decoration: none;
+	color: #333;
+}
+.pictures_txt{
+	width: 290px;
+	display: flex;
+	align-items: center;
+	margin-left: 150px;
+	margin-right: 160p;
+	font-family: 'Public Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px0;
+	justify-content: space-around;
+}
+.contact-maps{
+	margin-left: 150px;
+	margin-bottom: 80px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+
+}
+.contact-text{
+	display: flex;
+	flex-wrap: wrap;
+	width: 550px;
+	margin-top: 50px;
+}
+.info{
+	display: flex;
+}
+.info-card{
+	width: 150px;
+	height: 132px;
+	/*border: 1px solid #333;*/
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin: 20px;
+}
+.info-card img{
+	width: 120px;
+	height: 75px;
+}
+.info-card_text{
+	display: flex;
+	margin-right: 20px;
+}
+.maps-block{
+
+}
+.maps-img{
+	display: flex;
+	background: #5B5B5B;
+	width: 416px;
+	height: 300px;
+	padding-left: 40px;
+	padding-top: 40px;
+	color: #fff;
+	font-family: 'Public Sans', sans-serif;
+	margin-top: 75px;
+	z-index: 2;
+	position: absolute;
+	top: -10px;
+	left: 450px;
+}
+.maps-img span{
+	padding-right: 20px;
+}
+.maps-button{
+	display: flex;
+	justify-content: space-evenly;
+}
+.maps-button_btn{
+	background-color: #5B5B5B;
+	width: 163px;
+	height: 58px;
+	border: 1px solid #fff;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Public Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+}
+.maps-button_btn a{
+	color: #fff;
+}
+.maps-jpg{
+	background-image: url(img/map.png);
+	width: 750px;
+	height: 450px;
+	opacity: 0.5;
+}
+.footer{
+	width: 100%;
+	height: 120px;
+	background-color: #333333;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	font-family: 'Public Sans', sans-serif;
+
+}
+.footer img {
+	margin: 30px ;
+}
+
+
+
+/*bron.html*/
